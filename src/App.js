@@ -101,38 +101,38 @@ import './App.css';
 
 //4----
 // usin map for  objrect
-// function App() {
-//   // const names=["anushs","kalyani","jansi"]
-//   const students= [
-//     { 
-//       name:"anu",
-//       pic:"https://tse2.mm.bing.net/th?id=OIP.vJ3aFoQV6wd99bwSXpENJAAAAA&pid=Api&P=0&w=102&h=154" 
-//    },
-//   {  name:"kalyani",
-//      pic:"https://tse2.mm.bing.net/th?id=OIP.YEMKk8DvRpM4-lIo2nQHXgAAAA&pid=Api&P=0&w=142&h=213"  
-// },
-// {
-//   name:"jansi",
-//   pic:"https://tse4.mm.bing.net/th?id=OIP.tdfjQXRfxuaAwaFDrNXATwHaEK&pid=Api&P=0&w=326&h=183 "
-// }
-// ]
-//   return(
-//     <div className="App">
+function App() {
+  // const names=["anushs","kalyani","jansi"]
+  const students= [
+    { 
+      name:"anu",
+      pic:"https://tse2.mm.bing.net/th?id=OIP.vJ3aFoQV6wd99bwSXpENJAAAAA&pid=Api&P=0&w=102&h=154" 
+   },
+  {  name:"kalyani",
+     pic:"https://tse2.mm.bing.net/th?id=OIP.YEMKk8DvRpM4-lIo2nQHXgAAAA&pid=Api&P=0&w=142&h=213"  
+},
+{
+  name:"jansi",
+  pic:"https://tse4.mm.bing.net/th?id=OIP.tdfjQXRfxuaAwaFDrNXATwHaEK&pid=Api&P=0&w=326&h=183 "
+}
+]
+  return(
+    <div className="App">
 
-//     {students.map((student)=>(<Welcome   name={student.name}  pics={student.pic} />))}
-//     </div>
-//   )
-// }
-// export default App;
+    {students.map((student)=>(<Welcome   name={student.name}  pics={student.pic} />))}
+    </div>
+  )
+}
+export default App;
 
-// //defined the component--logic +view
-// function Welcome(props){
-// return(
-//   <>
-//   <h1>hello....{props.name}</h1>
-//   <img src={props.pics} />
-//   </>
-// )
-// }----
+//defined the component--logic +view
+function Welcome(props){
+return(
+  <>
+  <h1>hello....{props.name}</h1>
+  <img src={props.pics} />
+  </>
+)
+}
 
 
